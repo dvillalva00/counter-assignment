@@ -5,10 +5,6 @@ import {render, fireEvent, screen} from "@testing-library/react";
 import "@testing-library/jest-dom";
 import Counter from "../components/Counter";
 
-// beforeEach(() => {
-//   // Render the Counter component here
-// })
-
 test('renders counter message', () => {
   // Complete the unit test below based on the objective in the line above
     render(<Counter />);
